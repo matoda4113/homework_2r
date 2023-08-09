@@ -10,6 +10,8 @@ class MainPage extends StatefulWidget {
   State<MainPage> createState() => _MainPageState();
 }
 class _MainPageState extends State<MainPage> {
+
+
   int mode = 0;
   List<Product> productList = [
     Product(name: "포도", price: 3000, imagePath: "https://www.100ssd.co.kr/news/photo/202208/89896_70031_1951.jpg"),
@@ -20,7 +22,10 @@ class _MainPageState extends State<MainPage> {
     Product(name: "비닐팩", price: 9000, imagePath: "https://m.tntpack.co.kr/web/product/big/201604/887_shop1_382294.jpg"),
     Product(name: "쌍스바", price: 500, imagePath: "https://img1.daumcdn.net/thumb/R1280x0.fpng/?fname=http://t1.daumcdn.net/brunch/service/user/4Slv/image/ebG80keywECvkxmNPYoVrbxVaAw.png"),
     Product(name: "메두나", price: 500, imagePath: "https://www.bebeyam.com/wp-content/uploads/2020/07/binggrae-melona-8-768x1024.jpg"),
+
   ];
+
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
