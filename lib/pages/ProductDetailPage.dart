@@ -2,16 +2,16 @@ import 'package:flutter/material.dart';
 
 import '../vo/Product.dart';
 
-class ProductDetailPAge extends StatefulWidget {
+class ProductDetailPage extends StatefulWidget {
   final Product item;
 
-  const ProductDetailPAge({Key? key, required this.item}) : super(key: key);
+  const ProductDetailPage({Key? key, required this.item}) : super(key: key);
 
   @override
-  State<ProductDetailPAge> createState() => _ProductDetailPAgeState();
+  State<ProductDetailPage> createState() => _ProductDetailPAgeState();
 }
 
-class _ProductDetailPAgeState extends State<ProductDetailPAge> {
+class _ProductDetailPAgeState extends State<ProductDetailPage> {
 
   bool isLike = false;
 

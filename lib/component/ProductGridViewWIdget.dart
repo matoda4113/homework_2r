@@ -17,7 +17,7 @@ class _ProductGridViewWidgetState extends State<ProductGridViewWidget> {
   Widget build(BuildContext context) {
     return GestureDetector(
       onTap: (){
-        Get.to(()=>ProductDetailPAge(item:widget.item));
+        Get.to(()=>ProductDetailPage(item:widget.item));
       },
       child: Container(
         color: Colors.orange,
